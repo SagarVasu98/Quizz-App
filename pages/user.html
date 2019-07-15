@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Login</title>
+    <link rel="stylesheet" href="../css/user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- User  Login Welcome -->
+
+  <div class="alert success" id="alert">
+    <span class="closebtn">&times;</span>  
+    <strong>Welcome!</strong> Best Wishes For You.
+  </div>
+  <!-- User Sign UP Form -->
+  <form action="#" style="max-width:500px;margin:100px auto" id="form1">
+    <h2>Sign Up</h2>
+    <hr/>
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="email" id="email" placeholder="User Email" name="usrnm">
+    </div>                      
+    <div class="input-container">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="password" id="password" placeholder="User Password" name="psw">
+    </div>
+    <div id="message" style="margin-bottom: 30px;">
+  
+    </div>
+    <button type="button" class="btn" onclick="signup()">Sign Up</button>  
+    <button type="button" class="btn1" onclick="login1()">Log In</button>
+
+  </form>
+  
+
+<!-- User Login Form -->
+  <form action="#" style="max-width:500px;margin:100px auto" id="form">
+   
+    <h2>Log In</h2>
+    <hr/>
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="email" id="email1" placeholder="User Email" name="usrnm">
+    </div>                      
+    <div class="input-container">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="password" id="password1" placeholder="User Password" name="psw">
+    </div>
+    <div id="message1" style="margin-bottom: 30px;">
+
+    </div>
+    <button type="button" class="btn1" onclick="login()">Log In</button>
+    <button type="button" class="btn" onclick="signup1()">Sign Up</button>  
+
+
+  </form>
+
+    
+</body>
+<script src="../js/user.js"></script>
+</html>

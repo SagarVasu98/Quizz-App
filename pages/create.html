@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Quizz</title>
+    <link rel="stylesheet" href="../css/Create.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<form action="#" style="max-width:500px;margin:40px auto" id="form1">
+        <h2>Information</h2>
+        <hr/> 
+        <div class="input-container">
+                    <i class="fa fa-header icon" style="font-size:20px"></i>
+                    <input class="input-field" type="text" id="title1" placeholder="Quizz Name" name="quizz name">
+        </div>
+        <div class="input-container" id="box" >
+                    <i class="fa fa-clock icon" style="font-size:20px"></i>
+                    <input class="input-field" type="number" id="time1" placeholder="Choose min" name="time">
+        </div>
+
+        <div class="input-container">
+                    <i class="fa fa-question icon" style="font-size:20px"></i>
+                    <input class="input-field" type="number" id="question1" placeholder="Total Questions" name="question">
+        </div>
+        <div class="input-container">
+                    <i class="fa fa-check-circle icon" style="font-size:20px"></i>
+                    <input class="input-field" type="text" id="marks1" placeholder="Total Marks" name="marks">
+        </div>
+        <input type="button" class="btn" value="Add" onclick="btn()">
+</form>
+
+    <!-- Create Quizz Form -->
+<form action="#" style="max-width:500px;margin:40px auto" id="form">
+   
+    <h2>Create Quizz</h2>
+    <hr/> 
+    <div class="input-container">
+        <i  class="fa fa-question  icon" style="font-size:24px"></i>
+        <input class="input-field" type="text" id="question" placeholder=" Enter Question" name="Question">
+    </div>                      
+    <div class="input-container">
+        <i class="fa fa-circle icon" style="font-size:20px"></i>
+        <input class="input-field" type="text" id="option1" placeholder="Option1" name="option1">
+    </div>
+    <div class="input-container">
+        <i class="fa fa-circle icon" style="font-size:20px"></i>
+        <input class="input-field" type="text" id="option2" placeholder="Option2" name="option2">
+    </div>
+    <div class="input-container">
+        <i class="fa fa-circle icon" style="font-size:20px"></i>
+        <input class="input-field" type="text" id="option3" placeholder="Option3" name="option3">
+    </div>
+    <div class="input-container">
+        <i class="fa fa-circle icon" style="font-size:20px"></i>
+        <input class="input-field" type="text" id="option4" placeholder="Option4" name="option4">
+    </div>
+    <div class="input-container">
+        <i class="fa fa-circle icon" style="font-size:20px"></i>
+        <input class="input-field" type="text" id="answer" placeholder="Correct Answer" name="answer">
+    </div>
+    
+    <button type="button"  id="Button" class="btn" onclick="add()">Add</button>
+    <button type="button" class="btn1" onclick="send()">Send</button>
+
+</form>
+
+    
+</body>
+<script src="../js/create.js"></script>
+</html>
+
+
+

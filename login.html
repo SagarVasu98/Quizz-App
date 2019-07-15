@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Login Panel</title>
+    <link rel="stylesheet" href="css/admin-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- User  Login Welcome -->
+<div id="box">
+  <div class="alert success" id="alert">
+      <span class="closebtn">&times;</span>  
+      <strong style="font-size: 20px">Warning!</strong> Pleae Fill All Feilds.
+  </div>
+</div>
+  
+<!-- Login Form -->
+  <form action="#" style="max-width:500px;margin:100px auto">
+   
+    <h2>Admin</h2>
+    <hr/>
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="email" id="email" placeholder="Admin Email" name="usrnm">
+    </div>                      
+    <div class="input-container">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="password" id="password" placeholder="Admin Password" name="psw">
+    </div>
+    <button type="button" class="btn" onclick="login()">Log In</button>
+  </form>
+
+    
+</body>
+<script src="js/admin-login.js"></script>
+</html>
